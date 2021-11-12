@@ -1,0 +1,123 @@
+*{
+    font-family: "Roboto";
+}
+
+body{
+    background-color: #0d1117;
+}
+
+.card{
+    width: 395px;
+    background-color: rgb(253, 253, 253);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 25px;
+}
+
+img{
+    display: block;
+    margin: 50px auto;
+}
+
+.title{
+    text-align: center;
+}
+
+#main{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-arounds;
+}
+
+.pokemon{
+    width: 225px;
+    height: 217px;
+}
+
+.indice{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid lightgrey;
+}
+
+p{
+    margin: 0;
+}
+
+.type{
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-inline: 1px solid lightgrey;
+}
+
+.chip{
+    padding: 10px;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 500;
+    margin: 5px;
+}
+
+.grass{
+    background-color: #78c850;
+    ;
+}
+
+.poison{
+    background-color: #a040a0;
+    ;
+}
+
+.bug{
+    background-color: rgb(68, 63, 63);
+}
+
+.sub-title{
+    color: #a7a7a7;
+    font-size: 0.9rem;
+}
+
+.flying{
+    background-color: rgb(159, 159, 243);
+}
+
+.water{
+    background-color: rgb(57, 57, 238);
+}
+
+.fire{
+    background-color: orangered;
+}
+
+.normal{
+    background-color: palegoldenrod;
+}
+
+.stats{
+    color: grey;
+    align-items: center;
+}
+
+.stat{
+    display: flex;
+    align-items: center;
+}
+
+.bar{
+    height: 10px;
+    width: 75%;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: lightgrey;
+}
+
+.percentage{
+border-radius: 10px;
+height: 10px;
+background: linear-gradient(90deg, rgb(0 205 79) 0%, rgb(0 181 217) 100%);
+}
+
+.stat > span{
+    width: 25%
+} 
